@@ -319,6 +319,78 @@ html[data-w-dynpage] [data-w-cloak] {
     word-wrap: normal
 }
 
+/* Calculator Start */
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'mundial', sans-serif;
+    font-size: 21px;
+  }
+  
+  label {
+    margin-right: 10px;
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 35px;
+    /* font-weight: ; */
+  }
+  
+  input[type="number"] {
+    width: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  #a4 {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    /* font-weight: bold; */
+    font-family: 'mundial', sans-serif;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 135px;
+}
+
+   #a3{
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 0px;
+    padding: 14px 0;
+    border: 2px solid #fff;
+    border-radius: 0;
+    background-color: rgba(0,69,129,0);
+    transition: background-color .2s;
+    font-family: mundial,sans-serif;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    line-height: inherit;
+    text-decoration: none;
+   }
+
+   #a3:hover{
+    border-color: #fff;
+    background-color: #6969b3;
+    color: #fff
+   }
+
+   #a1, #a2{
+    margin: 10px 0px 80px 0px;
+   }
+   
+  
+
+/* Calculator End */
+
 .w-webflow-badge {
     position: fixed!important;
     display: inline-block!important;
