@@ -322,8 +322,8 @@ html[data-w-dynpage] [data-w-cloak] {
 /* Calculator Start */
 
 form {
-    margin: 20px;
-    padding: 20px;
+    /* margin: 20px;
+    padding: 20px; */
     border-radius: 5px;
     text-align: left;
     font-family: 'mundial', sans-serif;
@@ -387,9 +387,9 @@ form {
     margin: 10px 0px 80px 0px;
    }
 
-   #email-form{
+   /* #email-form{
     margin-left: 140px;
-   }
+   } */
 
    @media screen and (max-width: 767px) {
     .calculatorr{
