@@ -322,6 +322,8 @@ html[data-w-dynpage] [data-w-cloak] {
 /* Calculator Start */
 
 form {
+    /* margin: 20px;
+    padding: 20px; */
     border-radius: 5px;
     text-align: left;
     font-family: 'mundial', sans-serif;
@@ -344,15 +346,14 @@ form {
   }
   
   #a4 {
-    margin: 20px;
-    padding: 20px;
     border-radius: 5px;
     text-align: left;
     /* font-weight: bold; */
     font-family: 'mundial', sans-serif;
     font-size: 35px;
     color: #fff;
-    margin-left: 135px;
+    margin-bottom: 20px;
+
 }
 
    #a3{
