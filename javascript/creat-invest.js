@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function(){
       var amount = document.getElementById("a1").value;
       var months = document.getElementById("a2").value;
       var days = months*30;
-      var interestRate = 2/100;
+      var interestRate = 1.4/100;
       var compoundInterest = (amount * Math.pow((1 + interestRate), days));
       document.getElementById("a4").innerHTML = "FINAL AMOUNT:  $" + compoundInterest.toFixed(2);
     }
